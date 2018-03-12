@@ -191,51 +191,157 @@
 </div>
     </section>
     
-    <section class="external-links">
-        <h2>External links</h2>
+        <section class="calculator">
+<div class="container">
+      <div class="price-box">
+          <div class="col-md-6 col-sm-12">
+            <h3>Cost Calculator</h3>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was</p>
+          </div>
+        <div class="row">
+          <div class="col-md-6 col-sm-12">
+                <form class="form-horizontal form-pricing" role="form">
+
+                  <div class="price-slider">
+                    <h4 class="great">Pounds Per Pack</h4>
+                    <div class="col-sm-12">
+                      <div class="range-slider">
+  <input id="perPack"class="range-slider__range" type="range" value="0" min="0" max="50" >
+  <span class="range-slider__value">0</span>
+</div>
+                    </div>
+                  </div>
+                  <div class="price-slider">
+                    <h4 class="great">How many per day</h4>
+                    <div class="col-sm-12">
+                      <div class="range-slider">
+  <input id="perDay" class="range-slider__range" type="range" value="0" min="0" max="99" step="1">
+  <span class="range-slider__value">0</span>
+</div>
+                    </div>
+                  </div>
+                  <div class="price-slider">
+                    <h4 class="great">Years Smoking</h4>
+                    <div class="col-sm-12">
+                      <div class="range-slider">
+  <input id="years" class="range-slider__range" type="range" value="0" min="0" max="99" step="1">
+  <span class="range-slider__value">0</span>
+</div>
+                    </div>
+                  </div>
+                  
+              </div>
+              
+              
+              
+              <div class="col-md-6 col-sm-12">
+                <div class="price-form">
+
+                  <div class="form-group">
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <label class="control-label">Weekly Cost</label>
+                        </div>
+                        <div class="col-sm-6">
+                            <input type="hidden" id="amount_amirol" class="form-control">
+                            <input class="price lead" name="weeklyCost" type="text" id="weeklyCost" disabled="disabled" style="" />
+                        </div>
+                    </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <label class="control-label">Monthly</label>
+                        </div>
+                        <div class="col-sm-6">
+                            <input type="hidden" id="amount_amirol" class="form-control">
+                            <input class="price lead" name="monthlyCost" type="text" id="monthlyCost" disabled="disabled" style="" />
+                        </div>
+                    </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <label class="control-label">Yearly</label>
+                        </div>
+                        <div class="col-sm-6">
+                            <input type="hidden" id="amount_amirol" class="form-control">
+                            <input class="price lead" name="yearlyCost" type="text" id="yearlyCost" disabled="disabled" style="" />
+                        </div>
+                    </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <label class="control-label">Cost total</label>
+                        </div>
+                        <div class="col-sm-6">
+                            <input type="hidden" id="amount_amirol" class="form-control">
+                            <input class="price lead" name="costTotal" type="text" id="costTotal" disabled="disabled" style="" />
+                        </div>
+                    </div>
+                    </div>
+
+                    
+
+                  </div>
+
+                </form>
+            </div>
+            <button id="calculate">calculate</button>
+        </div>
+
+          </div>
+
+      </div>
+    </section>
+    
+     
+        
+    <footer id="myFooter">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                    <img src="images/header1.png" class="img-responsive">
+                <div class="col-sm-3">
+                    <h2 class="footer-logo"><a href="#"> LOGO </a></h2>
                 </div>
-                <div class="col-md-6">
-                    <img src="images/header1.png" class="img-responsive">
+                <div class="col-sm-2">
+                    <h5>Get started</h5>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Sign up</a></li>
+                        <li><a href="#">Downloads</a></li>
+                    </ul>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <img src="images/header1.png" class="img-responsive">
+                <div class="col-sm-2">
+                    <h5>About us</h5>
+                    <ul>
+                        <li><a href="#">Company Information</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Reviews</a></li>
+                    </ul>
                 </div>
-                <div class="col-md-6">
-                    <img src="images/header1.png" class="img-responsive">
+                <div class="col-sm-2">
+                    <h5>Support</h5>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Help desk</a></li>
+                        <li><a href="#">Forums</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <div class="social-networks">
+                        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
+                    </div>
+                    <button type="button" class="btn btn-default">Contact us</button>
                 </div>
             </div>
         </div>
-    </section>
-    
-    <footer>
-        <div class="container text-center">
-            <div class="row">
-                <div class="col-md-12">
-                    <ul class=foot-links>
-                        <li>HELPFUL LINKS</li>
-                        <li>NHS</li>
-                        <li>LORUM</li>
-                        <li>IPSUM</li>
-                    </ul>
-                    <h3>stop smoking scotland</h3>
-                    <ul>
-                        <li>facebook</li>
-                        <li>twitter</li>
-                        <li>instagram</li>
-                        <li>google +</li>
-                    </ul>
-                </div>
-                <hr>
-                <div class="col-md-12">
-                    <p>Copyright &copy; 2018. All rights reserved</p>
-                </div>
-            </div>
+        <div class="footer-copyright">
+            <p>© 2016 Copyright Text </p>
         </div>
     </footer>
     
